@@ -1,16 +1,13 @@
-body {
+main {
   display: flex;
   flex-direction: column;
   column-count: 2;
   min-height: 100vh;
-
 }
-
 footer,
 header {
   text-align: center;
   min-height: 10vh;
-  
   background-color: blue;
 }
 .text-blue {
