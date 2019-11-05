@@ -1,7 +1,9 @@
 body {
   display: flex;
   flex-direction: column;
+  column-count: 2;
   min-height: 100vh;
+
 }
 
 footer,
