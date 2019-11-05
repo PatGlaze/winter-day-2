@@ -1,14 +1,23 @@
-#second {
-  color: black;
-  background-color: unset;
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.text-red {
+
+footer,
+header {
+  text-align: center;
+  min-height: 10vh;
+  
+  background-color: blue;
+}
+.text-blue {
   color: blue;
   background-color: blue;
 }
 
-h1.text-red {
-  color:
+h1.text-white {
+  color: white;
   display: block;
   font-size: 15em;
 }
